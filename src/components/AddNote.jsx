@@ -35,20 +35,15 @@ export const AddNote = () => {
     //title State Here....
     const [title, setTitle] = useState("");
 
-    const mainDataGetHandler = ()=>{
-        const a = [
-            ...mainData,
-            {
-            title,
-            data
-        }]
-        setMainData(a)
-        localStorage.setItem("data", JSON.stringify(a))
-
-        setTitle('')
-        setData([{note:'', amount:''}]);
-        navigate('/')
-    }
+    const mainDataGetHandler = () => {
+        const newData = [    {      title,      data,    },  ];
+        const updatedData = [...mainData, ...newData];
+        setMainData(updatedData);
+        localStorage.setItem("data", JSON.stringify(updatedData));
+        setTitle("");
+        setData([{ note: "", amount: "" }]);
+        navigate("/");
+      };
 
     //=======================MAIN ARRAY OF OBJECT TO GETTING DATA OF TITLT AND INPUTS ARRAY======================
 
