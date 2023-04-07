@@ -1,0 +1,147 @@
+.listGetData{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 25px 0px 0px !important;
+    margin-right: 2%;
+    list-style: none;
+}
+.listGetData .noteGet{
+    font-size: 20px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.listGetData .amountGet{
+    font-size: 20px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    float: right !important;
+}
+.mainGetData{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 0 0 25px !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.form-Note{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.navbar {
+    margin: 0px auto 0px auto;
+    width: 100%;
+    background-color: #f1802f !important;
+  }
+
+  .add-Note{
+    background-color: hsl(25, 87%, 56%) !important;
+    padding: 20px !important;
+    width: 5%;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  .navbar-brand{
+    color: white;
+    font-weight: bold;
+  }
+
+
+  .card{
+    width: 12rem;
+    margin-top: 10px;
+  }
+
+  .card-body{
+    padding: 10px !important;
+  }
+
+ .card-link{
+  padding: 5px 10px;
+  background-color: #f1802f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+ } 
+
+ .navbar {
+    margin: 0px auto 0px auto;
+    width: 100%;
+    background-color: hsl(25, 87%, 56%) !important;
+  }
+
+  .navbar-brand{
+    color: white;
+    font-weight: bold;
+  }
+
+  .inputMain{
+    width: 400px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 33px;
+  }
+
+  .inputMain input{
+    border: none;
+    width: 450px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    
+  }
+  .inputMain input::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px !important;
+  }
+  input:focus{
+    border: 3px solid #f1802f;
+  }
+
+  .inputMain textarea{
+    border: none;
+    width: 450px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 100px;
+    
+  }
+
+  .inputMain textarea::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px !important;
+  }
+
+  .sumData{
+    padding: 10px 0px 10px 30px;
+    color: white;
+    background-color: #f1802f;
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+  }
+ .input-group{
+  width: 400px !important;
+  margin: 25px;
+  margin-left: 35px;
+ }
+ .buttons{
+  text-align: right;
+  margin-right: 25px;
+ }
+
+ .btn{
+  margin: 5px;
+ }
